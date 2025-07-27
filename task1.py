@@ -15,9 +15,9 @@ meals.insert(4, "Miyan Taushe")
 print(meals)
 meals.remove("Masa")
 print(meals)
-meals1 = meals[2]
-meals.append(meals1)
+meals[2], meals[-1] = meals[-1], meals[2]
 print(meals)
-print(meals[2:4])
+meddle = len(meals) // 2
+print(meddle)
 meals.sort()
 print(meals)
