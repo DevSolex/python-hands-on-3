@@ -24,6 +24,5 @@ print(friends)
 Friends = friends[:3]
 print(Friends)
 print(len(friends[-3]))
-friends.sort
-friends.reverse
+friends.sort(reverse=True)
 print(friends)
