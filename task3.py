@@ -13,8 +13,7 @@ money = [1000, 1200, 800, 1500, 1100]
 money = [1000, 1200, 800, 1500, 1100]
 total = money[0] + money[1] + money[2] + money[3] + money[4]
 print(total)
-money.remove(money[2])
-money.insert(2, 1000)
+money[2] = 1000
 print(money)
 print(money[::-1])
 
