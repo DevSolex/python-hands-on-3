@@ -17,6 +17,7 @@ genres.append("Drama")
 print(genres)
 genres.remove(genres[-1])
 print(genres)
-print(len(f"the total number of genres plan to show is {genres}"))
+total=len(genres)
+print(f"the total number of genres planned is {total}")
 print(genres[1],genres[-2])
 
